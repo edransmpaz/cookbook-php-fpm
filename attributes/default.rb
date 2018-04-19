@@ -1,5 +1,5 @@
 case node['platform_family']
-when 'rhel', 'fedora'
+when 'rhel', 'fedora', 'amazon'
   user = 'apache'
   group = 'apache'
   conf_dir = '/etc/php.d'
